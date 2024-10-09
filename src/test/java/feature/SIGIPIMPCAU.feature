@@ -5,6 +5,7 @@ Funcionalidade: Envio de Response XML do serviço SIGIPIMPCAU
   Designada a montar o XML de acordo com as massas selecionadas
   Envio do request XML e validaçao do response
 
+  @test
   Esquema do Cenario: [Modulo] - "<cenario>"
     Dado que eu seleciono o XML "<xml>" e o YAML "<yaml>"
     E realize a substituicao dos dados primarios do arquivo
