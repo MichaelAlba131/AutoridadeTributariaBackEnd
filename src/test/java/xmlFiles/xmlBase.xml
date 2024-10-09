@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://schema.soap.web.sigipimpcau.sigip.at.gov.pt">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <sch:SigipimpcauRequest>
+            <sch:request>
+                <!--Optional:-->
+                <sch:VersionNumber>$schVersionNumber$</sch:VersionNumber>
+                <sch:ModificationDate>$schModificationDate$</sch:ModificationDate>
+                <sch:LocalReferenceNumber>$schLocalReferenceNumber$</sch:LocalReferenceNumber>
+                <sch:TemporaryNumber>$schTemporaryNumber$</sch:TemporaryNumber>
+                <!--Optional:-->
+                <sch:DeclarationNumber>$schDeclarationNumber$</sch:DeclarationNumber>
+                <sch:Date>$schDate$</sch:Date>
+                <sch:H6Flag>$schH6Flag$</sch:H6Flag>
+                <sch:DeclarationCustomsOffice>$schDeclarationCustomsOffice$</sch:DeclarationCustomsOffice>
+                <!--<sch:DeclarationCustomsOffice>$schDeclarationCustomsOffice$</sch:DeclarationCustomsOffice>-->
+                <sch:GoodsPresentationCustomsOffice>$schGoodsPresentationCustomsOffice$</sch:GoodsPresentationCustomsOffice>
+                <!--Optional:-->
+                <sch:GrossMass>$schGrossMass$</sch:GrossMass>
+                <!--0 to 99 repetitions:-->
+                <!--Optional:-->
+                <sch:AdditionalInformation>
+                    <sch:Code>$schAdditionalInformationCode$</sch:Code>
+                    <sch:Text>$schAdditionalInformationText$</sch:Text>
+                </sch:AdditionalInformation>
+                <!--0 to 99 repetitions:-->
+                <!--Optional:-->
+                <!--<sch:SupportDocument>
+                <sch:Type>$schType$</sch:Type>
+                <sch:ReferenceNumber>$schReferenceNumber$</sch:ReferenceNumber>
+                </sch:SupportDocument>-->
+                <!--0 to 99 repetitions:-->
+                <!--Optional:-->
+                <sch:AdditionalReference>
+                    <sch:Type>$schAdditionalReferenceType$</sch:Type>
+                    <!--Optional:-->
+                    <sch:ReferenceNumber>$schAdditionalReferenceReferenceNumber$</sch:ReferenceNumber>
+                </sch:AdditionalReference>
+                <!--0 to 99 repetitions:-->
+                <!--Optional:-->
+                <sch:TransportDocument>
+                    <sch:Type>$schTypeTD1$</sch:Type>
+                    <sch:ReferenceNumber>$schReferenceNumberTD1$</sch:ReferenceNumber>
+                </sch:TransportDocument>
+                <sch:TransportDocument>
+                    <sch:Type>$schTypeTD2$</sch:Type>
+                    <sch:ReferenceNumber>$schReferenceNumberTD2$</sch:ReferenceNumber>
+                </sch:TransportDocument>
+                <!--0 to 99 repetitions:-->
+                <!--Optional:-->
+                <!--<sch:Authorization>
+                <sch:Type>$schType$</sch:Type>
+                <sch:ReferenceNumber>$schReferenceNumber$</sch:ReferenceNumber>
+                 <sch:HolderEORINumber>$schHolderEORINumber$</sch:HolderEORINumber>
+                </sch:Authorization>-->
+                <!--Optional:-->
+                <sch:SimplifiedAuthorizationFlag>$schSimplifiedAuthorizationFlag$</sch:SimplifiedAuthorizationFlag>
+                <sch:DestinationCountry>$schDestinationCountry$</sch:DestinationCountry>
+                <sch:DispatchingCountry>$schDispatchingCountry$</sch:DispatchingCountry>
+                <!--continente-->
+                <!--<sch:RegionalCode>$schRegionalCode$</sch:RegionalCode>-->
+                <!--açores-->
+                <sch:RegionalCode>$schRegionalCode$</sch:RegionalCode>
+                <!--madeira-->
+                <!--<sch:RegionalCode>$schRegionalCode$</sch:RegionalCode>-->
+                <sch:SystemId>$schSystemId$</sch:SystemId>
+                <sch:DeclUser>$schDeclUser$</sch:DeclUser>
+                <!--1 to 5000 repetitions:-->
+                <sch:Additions>
+                    <sch:AdditionNumber>$schAdditionsAdditionNumber$</sch:AdditionNumber>
+                    <!--Optional:-->
+                    <sch:SuplementaryUnit>$schAdditionsSuplementaryUnit$</sch:SuplementaryUnit>
+                    <!--Optional:-->
+                    <!--<sch:Usfi>20</sch:Usfi>-->
+                    <!--Optional:-->
+                    <sch:GrossMass>$schAdditionsGrossMass$</sch:GrossMass>
+                    <!--Optional:-->
+                    <sch:NetMass>$schAdditionsNetMass$</sch:NetMass>
+                    <!--Optional:-->
+                    <sch:CusCode>$schAdditionsCusCode$</sch:CusCode>
+                    <!--Optional:-->
+                    <sch:GoodsCodeSH>$schAdditionsGoodsCodeSH$</sch:GoodsCodeSH>
+                    <!--Optional:-->
+                    <sch:GoodsCodeNC>$schAdditionsGoodsCodeNC$</sch:GoodsCodeNC>
+                    <!--Optional:-->
+                    <sch:GoodsCodeTARIC>$schAdditionsGoodsCodeTARIC$</sch:GoodsCodeTARIC>
+                    <!--Optional:-->
+                    <sch:OriginCountryCode>$schAdditionsOriginCountryCode$</sch:OriginCountryCode>
+                    <!--Optional:-->
+                    <sch:PreferredOriginCountry>$schAdditionsPreferredOriginCountry$</sch:PreferredOriginCountry>
+                    <!--Optional:-->
+                    <sch:DestinationCountry>$schAdditionsDestinationCountry$</sch:DestinationCountry>
+                    <!--Optional:-->
+                    <!--<sch:DispatchingCountry>CA</sch:DispatchingCountry>-->
+                    <!--Optional:-->
+                    <sch:Preference>$schAdditionsPreference$</sch:Preference>
+                    <!--Optional:-->
+                    <sch:RequestedRegime>$schAdditionsRequestedRegime$</sch:RequestedRegime>
+                    <!--0 to 99 repetitions:-->
+                    <sch:AdditionalRegime>$schAdditionsAdditionalRegime$</sch:AdditionalRegime>
+                    <!--Optional:-->
+                    <!--<sch:QuotaOrderNumber>090113</sch:QuotaOrderNumber>-->
+                    <!--Optional:-->
+                    <sch:StatisticalValue>$schAdditionsStatisticalValue$</sch:StatisticalValue>
+                    <!--Optional:-->
+                    <sch:ValuationMethod>$schAdditionsValuationMethod$</sch:ValuationMethod>
+                    <!--0 to 99 repetitions:-->
+                    <!--Optional:-->
+                    <sch:TaxBase>
+                        <sch:MeasureUnitAndQualifier>$schAdditionsMeasureUnitAndQualifier$</sch:MeasureUnitAndQualifier>
+                        <sch:Quantity>$schAdditionsQuantity$</sch:Quantity>
+                    </sch:TaxBase>
+                    <!--0 to 99 repetitions:-->
+                    <!--Optional:-->
+                    <!--<sch:UnitsForRestrictions>
+                       <sch:MeasureUnitAndQualifier>KGM</sch:MeasureUnitAndQualifier>
+                       <sch:Quantity>100</sch:Quantity>
+                    </sch:UnitsForRestrictions>-->
+                    <!--0 to 99 repetitions:-->
+                    <!--Optional:-->
+                    <!--<sch:UnitsForH6>
+                      <sch:MeasureUnitAndQualifier>KGM</sch:MeasureUnitAndQualifier>
+                       <sch:Quantity>100</sch:Quantity>
+                    </sch:UnitsForH6>-->
+                    <sch:VatRegime>$schAdditionsVatRegime$</sch:VatRegime>
+                    <!--0 to 99 repetitions:-->
+                    <!--Optional:-->
+                    <sch:AdditionalInformation>
+                        <sch:Code>$schAdditionsCode$</sch:Code>
+                        <sch:Text>$schAdditionsText$?</sch:Text>
+                    </sch:AdditionalInformation>
+                    <!--0 to 99 repetitions:-->
+                    <sch:SupportDocument>
+                        <sch:Type>$schAdditionsType$</sch:Type>
+                        <sch:ReferenceNumber>$schAdditionsReferenceNumber$</sch:ReferenceNumber>
+                        <!--este campo abaixo só pode ser usado nos adicionais:-->
+                        <sch:MeasureUnitAndQualifier>$schAdditionsMeasureUnitAndQualifier2$</sch:MeasureUnitAndQualifier>
+                    </sch:SupportDocument>
+                    <!--0 to 99 repetitions:-->
+                    <sch:AdditionalReference>
+                        <sch:Type>$schAdditionsType2$</sch:Type>
+                        <sch:ReferenceNumber>$schAdditionsReferenceNumber2$</sch:ReferenceNumber>
+                    </sch:AdditionalReference>
+                    <!--0 to 99 repetitions:-->
+                    <!--<sch:TransportDocument>
+                     <sch:Type>1234</sch:Type>
+                     <sch:ReferenceNumber>1234</sch:ReferenceNumber>
+                    </sch:TransportDocument>-->
+                    <!--0 to 99 repetitions:-->
+                    <!--<sch:Authorization>
+                    <sch:Type>1234</sch:Type>
+                    <sch:ReferenceNumber>12345678901234567890123567890123455</sch:ReferenceNumber>
+                    <sch:HolderEORINumber>12345678901234567</sch:HolderEORINumber>
+                    </sch:Authorization>-->
+                    <!--0 to 99 repetitions:-->
+                    <sch:SimplifiedAuthorizationFlag>$schAdditionsSimplifiedAuthorizationFlag$</sch:SimplifiedAuthorizationFlag>
+                    <sch:NationalAdditionalCode>$schAdditionsNationalAdditionalCode$</sch:NationalAdditionalCode>
+                    <!--<sch:NationalAdditionalCode>1961</sch:NationalAdditionalCode>-->
+                    <!--<sch:NationalAdditionalCode>1069</sch:NationalAdditionalCode>-->
+                    <!--<sch:NationalAdditionalCode>1600</sch:NationalAdditionalCode>-->
+                    <!--<sch:NationalAdditionalCode>R177</sch:NationalAdditionalCode>-->
+                    <!--0 to 99 repetitions:-->
+                    <!--<sch:AdditionalCodeTARIC>F499</sch:AdditionalCodeTARIC>-->
+                    <!--<sch:AdditionalCodeTARIC>3200</sch:AdditionalCodeTARIC>-->
+                    <!--Optional:-->
+                    <sch:CustomsValue>$schAdditionsCustomsValue$</sch:CustomsValue>
+                    <sch:PotentialDebt>
+                        <!--Optional:-->
+                        <sch:GoodsCode>$schAdditionsGoodsCode$</sch:GoodsCode>
+                        <!--Optional:-->
+                        <sch:OriginCountryCode>$schAdditionsOriginCountryCode$</sch:OriginCountryCode>
+                        <!--0 to 99 repetitions:-->
+                        <sch:AdditionalCodeTARIC>$schAdditionsAdditionalCodeTARIC$</sch:AdditionalCodeTARIC>
+                        <!--<sch:AdditionalCodeTARIC>F422</sch:AdditionalCodeTARIC>-->
+                        <!--0 to 99 repetitions:-->
+                        <sch:NationalAdditionalCode>$schAdditionsNationalAdditionalCode$</sch:NationalAdditionalCode>
+                        <!--Optional:-->
+                        <sch:Preference>$schAdditionsPreference2$</sch:Preference>
+                        <!--Optional:-->
+                        <sch:RequestedRegime>$schAdditionsRequestedRegime2$</sch:RequestedRegime>
+                        <!--0 to 99 repetitions:-->
+                        <sch:UnitsForPD>
+                            <sch:MeasureUnitAndQualifier>$schAdditionsMeasureUnitAndQualifier3$</sch:MeasureUnitAndQualifier>
+                            <sch:Quantity>$schAdditionsQuantity2$</sch:Quantity>
+                        </sch:UnitsForPD>
+                        <!--0 to 99 repetitions:-->
+                        <!--<sch:UnitsForRestrictions>
+                            <sch:MeasureUnitAndQualifier>KGM</sch:MeasureUnitAndQualifier>
+                            <sch:Quantity>100</sch:Quantity>
+                         </sch:UnitsForRestrictions>-->
+                        <!--Optional:-->
+                        <!--<sch:Usfi>100.000999</sch:Usfi>-->
+                        <!--Optional:-->
+                        <!--<sch:SuplementaryUnit>100</sch:SuplementaryUnit>-->
+                        <!--Optional:-->
+                        <sch:CustomsValue>$schAdditionsCustomsValue$</sch:CustomsValue>
+                    </sch:PotentialDebt>
+                </sch:Additions>
+            </sch:request>
+        </sch:SigipimpcauRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

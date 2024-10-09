@@ -1,0 +1,102 @@
+SigipimpcauRequest:
+  request:
+    VersionNumber: 60
+    ModificationDate: 2008-09-15
+    LocalReferenceNumber: 21PT980112664200000155
+    TemporaryNumber: 123456789012345678
+    DeclarationNumber: 123456789012345678
+    Date: 2023-04-13
+    H6Flag: 0
+    DeclarationCustomsOffice: PT001964
+    GoodsPresentationCustomsOffice: 12345678
+    GrossMass: 100
+    AdditionalInformation:
+      Code: 12345
+      Text: 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+    SupportDocument:
+      Type: NOT-USE
+      ReferenceNumber: NOT-USE
+    AdditionalReference:
+      Type: Y063
+      ReferenceNumber: 1234567890123456789012345678901234567890123456789012345678901234567890
+    TransportDocument1:
+      Type: U110
+      ReferenceNumber: 1234567890123456789012345678901234567890123456789012345678901234567890
+    TransportDocument2:
+      Type: C640
+      ReferenceNumber: 121867890
+    Authorization:
+      Type: NOT-USE
+      ReferenceNumber: NOT-USE
+      HolderEORINumber: NOT-USE
+    SimplifiedAuthorizationFlag: 1
+    DestinationCountry: CH
+    DispatchingCountry: AL
+    RegionalCode: 60A
+    SystemId: 0
+    DeclUser: 10rfrfrf
+    Additions:
+      AdditionNumber: 1
+      SuplementaryUnit: 20
+      Usfi: NOT-USE
+      GrossMass: 100
+      NetMass: 100
+      CusCode: C12345678
+      GoodsCodeSH: 010290
+      GoodsCodeNC: 29
+      GoodsCodeTARIC: 30
+      OriginCountryCode: AL
+      PreferredOriginCountry: BR
+      DestinationCountry: ES
+      DispatchingCountry: NOT-USE
+      Preference: 300
+      RequestedRegime: 12
+      AdditionalRegime: 4II
+      QuotaOrderNumber: NOT-USE
+      StatisticalValue: 1234567890123456
+      ValuationMethod: 1
+      TaxBase:
+        MeasureUnitAndQualifier: KGM
+        Quantity: 100
+      UnitsForRestrictions:
+        MeasureUnitAndQualifier: NOT-USE
+        Quantity: NOT-USE
+      UnitsForH6:
+        MeasureUnitAndQualifier: NOT-USE
+        Quantity: NOT-USE
+      VatRegime: 3
+      AdditionalInformation:
+        Code: 34567
+        Text: 234234
+      SupportDocument:
+        Type: U110
+        ReferenceNumber: 12345
+        MeasureUnitAndQualifier: 1234
+      AdditionalReference:
+        Type: 3Y48
+        ReferenceNumber: 12345688
+      TransportDocument:
+        Type: NOT-USE
+        ReferenceNumber: NOT-USE
+      Authorization:
+        Type: NOT-USE
+        ReferenceNumber: NOT-USE
+        HolderEORINumber: NOT-USE
+      SimplifiedAuthorizationFlag: 0
+      NationalAdditionalCode: 1041
+      AdditionalCodeTARIC: NOT-USE
+      CustomsValue: 1500
+      PotentialDebt:
+        GoodsCode: 0102902930
+        OriginCountryCode: AL
+        AdditionalCodeTARIC: -1
+        NationalAdditionalCode: 1961
+        Preference: 300
+        RequestedRegime: 12
+        UnitsForPD:
+          MeasureUnitAndQualifier: KGM
+          Quantity: 100
+        UnitsForRestrictions:
+          MeasureUnitAndQualifier: NOT-USE
+          Quantity: NOT-USE
+        CustomsValue: 2200
